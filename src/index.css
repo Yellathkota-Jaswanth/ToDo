@@ -1,0 +1,47 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+ 
